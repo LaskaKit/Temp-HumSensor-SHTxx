@@ -9,7 +9,7 @@
 *
 * Made by (c) laskarduino.cz 2021
 *
-*	Potrebne knihovny:
+*	Libraries:
 *	https://github.com/adafruit/Adafruit_SHT31
 */
 
