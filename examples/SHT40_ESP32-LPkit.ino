@@ -10,7 +10,7 @@
 * Made by (c) laskarduino.cz 2021
 *
 * Libraries
-* https://github.com/Sensirion/arduino-sht
+* https://github.com/adafruit/Adafruit_SHT4X
 */
  
 #include <WiFi.h>
