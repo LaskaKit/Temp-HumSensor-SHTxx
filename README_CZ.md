@@ -4,6 +4,8 @@ Na základě těchto požadavků vznikl i modul pro měření teploty a vlhkosti
 Na jedné straně plošného spoje najdeš čidlo teploty a vlhkosti SHT40 v pouzdru DFN4. </br>
 K němu náleží pull-up rezistory pro I2C sběrnici a blokovací kondenzátor. </br>
 
+Modul si můžeš koupit na https://www.laskarduino.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
+
 ![Osazený modul](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/images/sht40.JPG)
 
 A proč jsme vybrali zrovna čidla od Sensirion?
@@ -33,3 +35,6 @@ a podobně s výkonem 110 mW a 200mW.
 I2C adresa může být 0x44 (SHT40-**A**D1B) nebo 0x45 (SHT40-**B**D1B) podle zakoupeného čidla. 
 
 Vzorový kód pro SHT40 ve spojení s vývojovým kitem ESP32-LPkit také najdete v tomto repozitáři.
+
+Modul si můžeš koupit na https://www.laskarduino.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
+
