@@ -1,6 +1,8 @@
 # Modul for temperature and humidity sensor SHT40
-If you are looking for a versatile temperature and humidity module for hihg quality sensor, you shall check this module which we develop for Sensirion sensor.
-On the one-side PCB is a footprint for SHT40 in DFN4 package, pull-up resisitors for I2C bus and decoupling capacitor.
+If you are looking for a versatile temperature and humidity module for high quality sensor, you shall check this module which we develop with Sensirion sensor.
+On the one-side PCB is a footprint for SHT40 in DFN4 package, pull-up resisitors for I2C bus and decoupling capacitor.</br>
+
+The module is available on https://www.laskarduino.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
 
 ![PCB](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/images/sht40.JPG)
 
@@ -30,3 +32,5 @@ and similar with 110 mW and 200 mW power of heater.
 I2C address may be 0x44 (for SHT40-**A**D1B) or 0x45 (for SHT40-**B**D1B) depending of type of SHT40. 
 
 The example code for SHT40 is also available in this repository.
+
+The module is available on https://www.laskarduino.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
