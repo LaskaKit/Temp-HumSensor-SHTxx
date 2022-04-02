@@ -4,9 +4,9 @@ Na základě těchto požadavků vznikl i modul pro měření teploty a vlhkosti
 Na jedné straně plošného spoje najdeš čidlo teploty a vlhkosti SHT40 v pouzdru DFN4. </br>
 K němu náleží pull-up rezistory pro I2C sběrnici a blokovací kondenzátor. </br>
 
-Modul si můžeš koupit na https://www.laskarduino.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
+Modul si můžeš koupit na https://www.laskakit.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
 
-![Osazený modul](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/images/sht40.JPG)
+![Osazený modul](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/img/sht40.JPG)
 
 A proč jsme vybrali zrovna čidla od Sensirion?
 Čidla patří mezi hojně používaná, díky svým velmi dobrým vlastnostem, které se ani s časem nijak zvláště nehorší.
@@ -19,11 +19,11 @@ SHT40 (popřípadě varianty SHT41 a SHT45) se vyrábějí v pouzdru DFN4, tedy 
 
 Přesnost měření teploty je +-0,2 °C v rozsahu od 0 °C do 60 °C, rozlišení je pak uvedeno jako 0,01 °C a vliv stárnutí čidla je definován jako menší než 0,03 °C za jeden rok. 
 
-![SHT31 - graf teploty](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/images/SHT40temp.JPG)
+![SHT31 - graf teploty](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/img/SHT40temp.JPG)
 
 Přesnost měření vlhkosti je v katalogovém listu uvedena hodnota +-1,8 %RH, rozlišení je 0,01 %RH a vliv stárnutí součástky je uveden v katalogovém listu jako menší než 0,25 %RH za jeden rok.
 
-![SHT31 - graf teploty](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/images/SHT40hum.JPG)
+![SHT31 - graf teploty](https://github.com/LaskaKit/Temp-HumSensor-SHTxx/blob/main/img/SHT40hum.JPG)
 
 Napájecí napětí čidla se pohybuje v rozsahu od neuvěřitelných 1,08V až do 3,6V. 
 Spotřeba během měření se pohybuje okolo 350 uA a ve spánku čidlo SHT40 odebírá pouhých 0,08 uA. 
@@ -36,5 +36,5 @@ I2C adresa může být 0x44 (SHT40-**A**D1B) nebo 0x45 (SHT40-**B**D1B) podle za
 
 Vzorový kód pro SHT40 ve spojení s vývojovým kitem ESP32-LPkit také najdete v tomto repozitáři.
 
-Modul si můžeš koupit na https://www.laskarduino.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
+Modul si můžeš koupit na https://www.laskakit.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/
 
