@@ -1,13 +1,13 @@
 /*
 * This example code for Temperature and Humidity SHTxx module
-* is used for ESP32 LPkit.
+* is used with ESP32 LPkit board.
 * ESP32-LPkit reads temperature and humidity from SHT40 sensor 
 * and sends every second through UART
 *
 * SDA - GPIO21
 * SCL - GPIO22
 *
-* Made by (c) laskarduino.cz 2021
+* Made by (c) laskakit.cz 2021
 *
 * Libraries
 * https://github.com/adafruit/Adafruit_SHT4X
