@@ -13,7 +13,6 @@
 * https://github.com/adafruit/Adafruit_SHT4X
 */
  
-#include <WiFi.h>
 #include <Wire.h>
 #include "Adafruit_SHT4x.h"
  
