@@ -20,6 +20,7 @@ Adafruit_SHT4x sht4 = Adafruit_SHT4x();
  
 void setup() {
   Serial.begin(115200);
+  Wire.begin(21, 22);
   while (!Serial) 
   {
     ; // wait for serial
